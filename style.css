@@ -165,13 +165,85 @@ button:hover{
 
 footer{
     width: 100%;
-    min-height: 10rem;
+    min-height: 6rem;
     background-color: hsl(192, 100%, 9%);
     font-family:'Poppins', sans-serif;
     margin: auto;
     margin-top: 2%;
+    padding: 10%;
 }
 
 .img_logo_footer{
-    filter: white;
+    width: 15%;
+    filter:  brightness(0) invert(1);
 }
+
+.p_location{
+    width: 20em;
+   height: 5em;
+    font-size: small;
+    color: hsl(212, 8%, 70%);
+    line-height: 1.5;
+}
+
+.p_phone_mail{
+    font-size: small;
+    color: hsl(212, 8%, 70%);
+}
+
+.logo_display{
+    display: flex;
+    gap: 1em;
+    margin-top: 10%;
+}
+.logo_location{
+    width: 5%;
+    height: 1rem;
+}
+
+.about_us{
+    font-size: small;
+    color: hsl(212, 8%, 70%);
+    line-height: 3;
+    margin-top: 1%;
+   
+}
+
+.fa {
+    text-decoration: none;
+    color: white;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+    padding: 10px;
+    border: 1px solid white;
+  }
+
+  .fa:hover {
+    color: hsl(300, 69%, 71%);
+    opacity: 0.7;
+  }
+
+  .icon_row{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1%;
+    
+  }
+
+  .footer_row_display{
+    display: flex;
+    gap: 10rem;
+  }
+
+  .p_copyright{
+    font-size: small;
+    color: hsl(212, 8%, 70%);
+    text-align: right;
+  }
